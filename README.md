@@ -8,6 +8,7 @@ This utility is meant to be a set-and-forget tool that looks at your interfaces 
 2. [The golang.org/x/net/icmp package](https://godoc.org/golang.org/x/net/icmp)
 3. [skoef's ndp package](https://github.com/skoef/ndp), which defines useful ICMPv6 datatypes
 4. [skoef's dhcpv6 package](https://github.com/skoef/dhcpv6)
+5. [Linux Kernel ip-sysctl.txt](https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt)
 
 ## Core Functionality
 * `6rdrtr` should require two arguments: your external ipv6 interface (eg `6rd` or `sit0`), and your internal interface (eg `eth0` or `lan0`).
